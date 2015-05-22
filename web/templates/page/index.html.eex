@@ -3,6 +3,9 @@
   <p class="lead">Most frameworks make you choose between speed and a productive environment. <a href="http://phoenixframework.org">Phoenix</a> and <a href="http://elixir-lang.org">Elixir</a> give you both.</p>
 </div>
 
+<div id="messages"></div>
+<input id="chat-input" type="text"></input>
+
 <div class="row marketing">
   <div class="col-lg-6">
     <h4>Resources</h4>
@@ -37,4 +40,3 @@
     </ul>
   </div>
 </div>
-

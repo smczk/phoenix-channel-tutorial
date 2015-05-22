@@ -10,6 +10,7 @@
     <title>Hello Phoenix!</title>
     <link rel="stylesheet" href="<%= static_path(@conn, "/css/app.css") %>">
     <script src="<%= static_path(@conn, "/js/app.js") %>"></script>
+    <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
   </head>
 
   <body>
