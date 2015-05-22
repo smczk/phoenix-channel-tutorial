@@ -1,6 +1,10 @@
 defmodule PhoenixChannelTutorial.Router do
   use PhoenixChannelTutorial.Web, :router
 
+  socket "/ws", PhoenixChannelTutorial do
+    channel "rooms:*", RoomChannel
+  end
+
   pipeline :browser do
     plug :accepts, ["html"]
     plug :fetch_session
